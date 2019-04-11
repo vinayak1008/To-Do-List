@@ -1,0 +1,38 @@
+.toDo{
+    .container{
+        padding: 0 1rem;
+    }
+    .toSelect{
+       background: lightsalmon;
+       h2 button{
+           background-color: red;
+           color: white;
+           border: none;
+           padding: 5px 8px;
+           border-radius: 50%;
+           cursor: pointer;
+           float: right;
+       }
+    }
+    .addList{
+        form{
+            display: flex;
+            .textInput{
+                flex: 10;
+                padding: 5px;
+            }
+            .btn{
+                flex: 2;
+                background:#555;
+                color: white;
+                display: inline-block;
+                border: none;
+                padding: 7px 20px;
+                cursor: pointer;
+            }
+            .btn:hover{
+                background: #666;
+            }
+        }
+    }
+}
